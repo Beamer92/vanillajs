@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(68, 72, 82);
+    border: 5px solid silver;
+    color: white;
+}
+
+nav {
+    display: flex;
+    padding: 1vh;
+    justify-content: center;
+}
+
+nav div {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding: 1vh;
+}
+
+.typeimg {
+    height: 4vh;
+    margin: .5vh;
+}
+
+#btnpic {
+    background-color: rgb(78, 122, 245);
+    color: white;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+/* #btnChg {
+    background-color: rgb(235, 31, 48);
+    color: white;
+    border: 1px solid rgb(221, 221, 221);
+    margin-left: 1vh;
+} */
+
+.container {
+    margin-bottom: 5%;
+}
+
+.flex-row{
+    justify-content: center;
+    padding: 1vh;
+}
+
+footer{
+    padding: 2vh;
+}
