@@ -48,6 +48,16 @@ form input{
     padding: 1vh;
 }
 
+ul .listItem {
+    list-style-type: square;
+    color: gold;
+    font-weight: bold;
+  }
+
+.col-md-6 {
+    margin-top: 10%;
+}
+
 footer{
     padding: 2vh;
 }

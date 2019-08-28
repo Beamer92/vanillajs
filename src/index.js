@@ -40,7 +40,7 @@ const init = () => {
     // const body =  document.getElementById("body");
 
     document.getElementById("form1").addEventListener("submit", (ev) => {
-        ev.preventDefault();
+        ev.preventDefault(); //ALWAYS preventDefault on Submit (and others). Submit by default cases a refresh, which we don't want
 
         if(nameInput.value && nameInput.value.length > 0){
             nameSpan.innerText = nameInput.value;
