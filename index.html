@@ -6,15 +6,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>VanillaJS</title>
         <script defer src="bundle.js"></script>
     </head>
-    <body>
+    <body id="body">
         <nav class="navbar1">
             <div id="apptitle">Vanilla App!</div>
-            <div class="name1">Hello <input type="text" placeholder="Name Here"> The time is: <input type="time" id="clock1"> </div>
+            <div class="name1">Hello <span id="nameSpan"></span> The time is: <input type="time" id="clock1"> </div>
             <img src="http://images.clipartpanda.com/ice-cream-clipart-aie45kXi4.png" class="typeimg">
-            <a href="./page2.html">Go to Next page</a>
+            <a href="./src/page2.html">Go to Next page</a>
         </nav>
         <div class="container">
             <div class="d-flex flex-row">
@@ -23,6 +23,11 @@
             <div class="d-flex flex-row">
                 <button id="btnpic" class="btn">Change Picture</button>
             </div>
+            <form class="d-flex flex-row" id="form1">
+                <input type="text" placeholder="Name Here" id="nameInput"/>
+                <!-- <input type="text" placeholder="Color here" id="colorInput"/> -->
+                <input type="submit" class="btn sub"/>
+            </form>
         </div>
         <footer>
             <div class="footdiv">

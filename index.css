@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(68, 72, 82);
+    background-color: #434750;
     border: 5px solid silver;
     color: white;
 }
@@ -25,6 +25,14 @@ nav div {
     background-color: rgb(78, 122, 245);
     color: white;
     border: 1px solid rgb(221, 221, 221);
+}
+
+form input{
+    margin-right: 2%;
+}
+
+.sub {
+    background-color: greenyellow;
 }
 
 #weather {
