@@ -37,7 +37,7 @@ const init = () => {
     const nameInput = document.getElementById("nameInput");
    
     // const colorInput = document.getElementById("colorInput");
-    // const body =  document.getElementById("body");
+    // const contain =  document.getElementById("contain");
 
     document.getElementById("form1").addEventListener("submit", (ev) => {
         ev.preventDefault(); //ALWAYS preventDefault on Submit (and others). Submit by default cases a refresh, which we don't want
@@ -47,7 +47,7 @@ const init = () => {
         }
 
         // if(colorInput.value && colorInput.value.length > 0){
-        //    body.setAttribute("style", `background-color: ${colorInput.value}`)
+        //    contain.setAttribute("style", `background-color: ${colorInput.value}`)
         // }
 
         nameInput.value = "";
