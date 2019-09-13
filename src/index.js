@@ -59,8 +59,7 @@ const init = () => {
     //So even if we saved our values in an object and we could guarantee our HTML matches across pages, how could we preserve them through a refresh?
     //LocalStorage or Cookies is one way, Sending our data over an API and retrieving it on a page load... But none of these solutions are really seamless or central
 
-    //Let's make a change and implement changing the background color!
-
+    //Let's make a change and implement changing the background color! Woooo you're excited.
 }
 
 
